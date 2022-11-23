@@ -1,0 +1,58 @@
+{
+  "name": "@captego/eslint-config-captego",
+  "version": "1.0.0",
+  "description": "eslint-config-captego",
+  "repository": "https://github.com/captego/eslint-config-captego.git",
+  "bugs": {
+    "url": "https://github.com/captego/eslint-config-captego/issues"
+  },
+  "homepage": "https://github.com/captego/eslint-config-captego/tree/main/#readme",
+  "author": "Captego <captego@captego.com>",
+  "contributors": [
+    "Daniel Spitzer <daniel@captego.com>"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "private": false,
+  "scripts": {
+    "test": "yarn lint",
+    "lint": "yarn eslint ."
+  },
+  "files": [
+    "index.js",
+    "react.js",
+    "react-native.js",
+    "vue.js"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-prettier-vue": "4.2.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-vue": "^9.7.0",
+    "vue-eslint-parser": "^9.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "prettier": "^2.8.0",
+    "typescript": "^4.9.3"
+  },
+  "peerDependencies": {
+    "eslint": "^8.28.0",
+    "prettier": "^2.8.0",
+    "typescript": "^4"
+  },
+  "packageManager": "yarn@3.3.0",
+  "eslintConfig": {
+    "extends": "./thisRepo.js"
+  }
+}
