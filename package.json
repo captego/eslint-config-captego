@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-captego",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint-config-captego",
   "repository": "https://github.com/captego/eslint-config-captego.git",
   "bugs": {
@@ -22,6 +22,7 @@
   },
   "files": [
     "index.js",
+    "apollo.js",
     "react.js",
     "react-native.js",
     "vue.js"
@@ -47,9 +48,23 @@
     "typescript": "^4.9.3"
   },
   "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "@react-native-community/eslint-config": "^3.2.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-prettier-vue": "4.2.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-vue": "^9.7.0",
     "eslint": "^8.28.0",
     "prettier": "^2.8.0",
-    "typescript": "^4"
+    "typescript": "^4",
+    "vue-eslint-parser": "^9.1.0"
   },
   "packageManager": "yarn@3.3.0",
   "eslintConfig": {
