@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['@captego/eslint-config', 'plugin:react-hooks/recommended'],
+  extends: ['captego', 'plugin:react-hooks/recommended'],
   overrides: [
     {
       files: ['*.stories.tsx'],

@@ -1,5 +1,5 @@
 {
-  "name": "@captego/eslint-config-captego",
+  "name": "eslint-config-captego",
   "version": "1.0.0",
   "description": "eslint-config-captego",
   "repository": "https://github.com/captego/eslint-config-captego.git",

@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    '@captego/eslint-config',
+    'captego',
     'plugin:vue/recommended',
     'plugin:prettier-vue/recommended',
   ],
