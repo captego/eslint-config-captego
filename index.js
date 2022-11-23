@@ -20,6 +20,7 @@ module.exports = {
   rules: {
     'array-callback-return': 'warn',
     'camelcase': 'warn',
+    'curly': ['error', 'all'],
     'eqeqeq': 'warn',
     'no-async-promise-executor': 'warn',
     'no-case-declarations': 'warn',
@@ -33,6 +34,7 @@ module.exports = {
     'no-void': ['warn', { allowAsStatement: true }],
     'prefer-const': 'warn',
     'prefer-promise-reject-errors': 'warn',
+    'prefer-template': 'error',
 
     'import/namespace': 'off', // very slow
 
