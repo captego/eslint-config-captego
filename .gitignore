@@ -29,3 +29,6 @@ typings/
 
 # Yarn Integrity file
 .yarn-integrity
+
+# Yarn workspace optimization file
+.yarn/install-state.gz
