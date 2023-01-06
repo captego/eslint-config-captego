@@ -662,6 +662,46 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-config-captego@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "eslint-config-captego@workspace:."
+  dependencies:
+    "@typescript-eslint/eslint-plugin": ^5.44.0
+    "@typescript-eslint/parser": ^5.44.0
+    "@vue/eslint-config-prettier": ^7.0.0
+    eslint: ^8.28.0
+    eslint-config-prettier: ^8.5.0
+    eslint-config-standard-with-typescript: ^23.0.0
+    eslint-plugin-import: ^2.26.0
+    eslint-plugin-n: ^15.5.1
+    eslint-plugin-prettier: ^4.2.1
+    eslint-plugin-prettier-vue: 4.2.0
+    eslint-plugin-promise: ^6.1.1
+    eslint-plugin-vue: ^9.7.0
+    prettier: ^2.8.0
+    typescript: ^4.9.3
+    vue-eslint-parser: ^9.1.0
+  peerDependencies:
+    "@react-native-community/eslint-config": ^3.2.0
+    "@typescript-eslint/eslint-plugin": ^5.44.0
+    "@typescript-eslint/parser": ^5.44.0
+    "@vue/eslint-config-prettier": ^7.0.0
+    eslint: ^8.28.0
+    eslint-config-prettier: ^8.5.0
+    eslint-config-standard-with-typescript: ^23.0.0
+    eslint-plugin-import: ^2.26.0
+    eslint-plugin-n: ^15.5.1
+    eslint-plugin-prettier: ^4.2.1
+    eslint-plugin-prettier-vue: 4.2.0
+    eslint-plugin-promise: ^6.1.1
+    eslint-plugin-react-hooks: ^4.6.0
+    eslint-plugin-vue: ^9.7.0
+    prettier: ^2.8.0
+    typescript: ^4
+    vue-eslint-parser: ^9.1.0
+  languageName: unknown
+  linkType: soft
+
 "eslint-config-prettier@npm:^8.3.0, eslint-config-prettier@npm:^8.5.0":
   version: 8.5.0
   resolution: "eslint-config-prettier@npm:8.5.0"
@@ -1484,13 +1524,13 @@ __metadata:
   linkType: hard
 
 "json5@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "json5@npm:1.0.1"
+  version: 1.0.2
+  resolution: "json5@npm:1.0.2"
   dependencies:
     minimist: ^1.2.0
   bin:
     json5: lib/cli.js
-  checksum: e76ea23dbb8fc1348c143da628134a98adf4c5a4e8ea2adaa74a80c455fc2cdf0e2e13e6398ef819bfe92306b610ebb2002668ed9fc1af386d593691ef346fc3
+  checksum: 866458a8c58a95a49bef3adba929c625e82532bcff1fe93f01d29cb02cac7c3fe1f4b79951b7792c2da9de0b32871a8401a6e3c5b36778ad852bf5b8a61165d7
   languageName: node
   linkType: hard
 
