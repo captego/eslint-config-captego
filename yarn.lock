@@ -774,19 +774,19 @@ __metadata:
     vue-eslint-parser: ^9.1.0
   peerDependencies:
     "@react-native-community/eslint-config": ^3.2.0
-    "@typescript-eslint/eslint-plugin": ^5.44.0
-    "@typescript-eslint/parser": ^5.44.0
-    "@vue/eslint-config-prettier": ^7.0.0
-    eslint: ^8.28.0
-    eslint-config-prettier: ^8.5.0
-    eslint-config-standard-with-typescript: ^23.0.0
-    eslint-plugin-import: ^2.26.0
-    eslint-plugin-n: ^15.5.1
+    "@typescript-eslint/eslint-plugin": ^5.54.1
+    "@typescript-eslint/parser": ^5.54.1
+    "@vue/eslint-config-prettier": ^7.1.0
+    eslint: ^8.36.0
+    eslint-config-prettier: ^8.7.0
+    eslint-config-standard-with-typescript: ^34.0.0
+    eslint-plugin-import: ^2.27.5
+    eslint-plugin-n: ^15.6.1
     eslint-plugin-prettier: ^4.2.1
     eslint-plugin-prettier-vue: 4.2.0
     eslint-plugin-promise: ^6.1.1
     eslint-plugin-react-hooks: ^4.6.0
-    eslint-plugin-vue: ^9.7.0
+    eslint-plugin-vue: ^9.9.0
     prettier: ^2.8.0
     typescript: ^4
     vue-eslint-parser: ^9.1.0
@@ -2085,11 +2085,11 @@ __metadata:
   linkType: hard
 
 "semver@npm:^6.3.0":
-  version: 6.3.0
-  resolution: "semver@npm:6.3.0"
+  version: 6.3.1
+  resolution: "semver@npm:6.3.1"
   bin:
-    semver: ./bin/semver.js
-  checksum: 1b26ecf6db9e8292dd90df4e781d91875c0dcc1b1909e70f5d12959a23c7eebb8f01ea581c00783bbee72ceeaad9505797c381756326073850dc36ed284b21b9
+    semver: bin/semver.js
+  checksum: ae47d06de28836adb9d3e25f22a92943477371292d9b665fb023fae278d345d508ca1958232af086d85e0155aee22e313e100971898bbb8d5d89b8b1d4054ca2
   languageName: node
   linkType: hard
 
