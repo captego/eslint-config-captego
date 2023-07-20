@@ -774,19 +774,19 @@ __metadata:
     vue-eslint-parser: ^9.1.0
   peerDependencies:
     "@react-native-community/eslint-config": ^3.2.0
-    "@typescript-eslint/eslint-plugin": ^5.44.0
-    "@typescript-eslint/parser": ^5.44.0
-    "@vue/eslint-config-prettier": ^7.0.0
-    eslint: ^8.28.0
-    eslint-config-prettier: ^8.5.0
-    eslint-config-standard-with-typescript: ^23.0.0
-    eslint-plugin-import: ^2.26.0
-    eslint-plugin-n: ^15.5.1
+    "@typescript-eslint/eslint-plugin": ^5.54.1
+    "@typescript-eslint/parser": ^5.54.1
+    "@vue/eslint-config-prettier": ^7.1.0
+    eslint: ^8.36.0
+    eslint-config-prettier: ^8.7.0
+    eslint-config-standard-with-typescript: ^34.0.0
+    eslint-plugin-import: ^2.27.5
+    eslint-plugin-n: ^15.6.1
     eslint-plugin-prettier: ^4.2.1
     eslint-plugin-prettier-vue: 4.2.0
     eslint-plugin-promise: ^6.1.1
     eslint-plugin-react-hooks: ^4.6.0
-    eslint-plugin-vue: ^9.7.0
+    eslint-plugin-vue: ^9.9.0
     prettier: ^2.8.0
     typescript: ^4
     vue-eslint-parser: ^9.1.0
@@ -2379,9 +2379,9 @@ __metadata:
   linkType: hard
 
 "word-wrap@npm:^1.2.3":
-  version: 1.2.3
-  resolution: "word-wrap@npm:1.2.3"
-  checksum: 30b48f91fcf12106ed3186ae4fa86a6a1842416df425be7b60485de14bec665a54a68e4b5156647dec3a70f25e84d270ca8bc8cd23182ed095f5c7206a938c1f
+  version: 1.2.4
+  resolution: "word-wrap@npm:1.2.4"
+  checksum: 8f1f2e0a397c0e074ca225ba9f67baa23f99293bc064e31355d426ae91b8b3f6b5f6c1fc9ae5e9141178bb362d563f55e62fd8d5c31f2a77e3ade56cb3e35bd1
   languageName: node
   linkType: hard
 
